@@ -1,0 +1,60 @@
+<layout>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="test.net.atshq.lolchat.ChatActivity">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvChatConversation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/layoutChatSubmit"/>
+
+
+        <!--<Button
+            android:id="@+id/btnSearchNext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="Chat Next"/>-->
+
+        <LinearLayout
+            android:id="@+id/layoutChatSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="8dp"
+            android:layout_alignParentBottom="true">
+
+
+
+            <EditText
+                android:id="@+id/etTextSubmit"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:paddingLeft="16dp"
+                android:paddingRight="4dp"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"
+                android:drawablePadding="4dp"
+                android:drawableRight="@drawable/camera"
+                android:hint="Type your message"
+                android:background="@android:color/transparent"/>
+            <ImageButton
+                android:layout_width="35dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:clickable="true"
+                android:background="@android:color/transparent"
+                android:src="@drawable/send"
+                android:onClick="msgSendClick"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</layout>

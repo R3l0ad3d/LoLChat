@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "137944072834",
+    "firebase_url": "https://lolchat-b9287.firebaseio.com",
+    "project_id": "lolchat-b9287",
+    "storage_bucket": "lolchat-b9287.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:137944072834:android:995fa583072f995a",
+        "android_client_info": {
+          "package_name": "test.net.atshq.lolchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "137944072834-9qussr8vnp82pf4344jckl27dl61h8ag.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "test.net.atshq.lolchat",
+            "certificate_hash": "bfe2820c54fe1b1b0ceb0e91ff95353b3b0d77c2"
+          }
+        },
+        {
+          "client_id": "137944072834-r0h1dqs2i7kjosifml3u27bmkksaf2f9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9OTCWyb3KoJ08tL6Y6i5YK0544eDnLbE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "137944072834-r0h1dqs2i7kjosifml3u27bmkksaf2f9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
